@@ -49,20 +49,22 @@ body {
   border-collapse: separate;
   border-spacing: 0;
   border-radius: 6px;
-  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
   /* top-left border-radius */
   /* top-right border-radius */
   /* bottom-left border-radius */
   /* bottom-right border-radius */
 }
+.wrapper .content-container table tr:nth-of-child(2n) {
+  background-color: rgba(29, 176, 169, 0.137254902);
+}
 .wrapper .content-container table tr th,
 .wrapper .content-container table tr td {
   border-right: 1px solid rgba(29, 176, 169, 0.137254902);
-  border-bottom: 1px solid rgba(29, 176, 169, 0.137254902);
   padding: 5px;
-  background: #fff;
 }
 .wrapper .content-container table tr th:first-child,
 .wrapper .content-container table tr td:first-child {
@@ -83,6 +85,9 @@ body {
 }
 .wrapper .content-container table tr:last-child td:last-child {
   border-bottom-right-radius: 6px;
+}
+.wrapper .content-container table tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 .wrapper .content-container table tr .data {
   width: 5%;
@@ -166,6 +171,9 @@ body {
 .wrapper .content-container table tr .desc-data .row1 ul {
   margin-left: 30px;
   width: 80%;
+}
+.wrapper .content-container table tr .desc-data .border-none {
+  border-bottom: none;
 }
 .wrapper .content-container table tr .desc-data .row4 {
   border-bottom: none;

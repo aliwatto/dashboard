@@ -32,9 +32,12 @@ $medium-font-size: 13px;
         margin-bottom: 10px;
       }
 
+
       .first {
         color: $steal;
       }
+
+
     }
   }
 
@@ -60,6 +63,7 @@ $medium-font-size: 13px;
     .sub-heading {
       margin-bottom: 20px;
     }
+
 
     table {
       // width: 100%;
@@ -104,19 +108,22 @@ $medium-font-size: 13px;
       border-collapse: separate;
       border-spacing: 0;
       border-radius: 6px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
 
-      box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-      -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-      -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
-
+      tr:nth-of-child(2n) {
+        background-color: #1db0a923;
+      }
 
 
       tr th,
       tr td {
         border-right: 1px solid #1db0a923;
-        border-bottom: 1px solid #1db0a923;
+        // border-bottom: 1px solid #1db0a923;
         padding: 5px;
-        background: #fff;
+
       }
 
 
@@ -127,10 +134,11 @@ $medium-font-size: 13px;
       }
 
       tr th {
-
         border-top: 1px solid #1db0a923;
         text-align: left;
       }
+
+
 
       /* top-left border-radius */
       tr:first-child th:first-child {
@@ -152,9 +160,19 @@ $medium-font-size: 13px;
         border-bottom-right-radius: 6px;
       }
 
+      // tr :last-child {
+      //   border-bottom: 1px solid #1db0a923;
+
+      // }
+
       // test
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
 
       tr {
+
         .data {
           width: 5%;
           font-weight: 100;
@@ -239,8 +257,10 @@ $medium-font-size: 13px;
               margin-left: 30px;
               width: 80%;
             }
+          }
 
-
+          .border-none {
+            border-bottom: none;
           }
 
           .row4 {
