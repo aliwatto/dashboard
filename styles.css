@@ -28,10 +28,6 @@ body {
 }
 .wrapper .content-container {
   width: 900px;
-  /* top-left border-radius */
-  /* top-right border-radius */
-  /* bottom-left border-radius */
-  /* bottom-right border-radius */
 }
 .wrapper .content-container .heading {
   display: flex;
@@ -52,7 +48,14 @@ body {
 .wrapper .content-container table {
   border-collapse: separate;
   border-spacing: 0;
-  min-width: 350px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  /* top-left border-radius */
+  /* top-right border-radius */
+  /* bottom-left border-radius */
+  /* bottom-right border-radius */
 }
 .wrapper .content-container table tr th,
 .wrapper .content-container table tr td {
@@ -81,93 +84,93 @@ body {
 .wrapper .content-container table tr:last-child td:last-child {
   border-bottom-right-radius: 6px;
 }
-.wrapper .content-container tr .data {
+.wrapper .content-container table tr .data {
   width: 5%;
   font-weight: 100;
   vertical-align: top;
 }
-.wrapper .content-container tr .data p {
+.wrapper .content-container table tr .data p {
   font-size: 12px;
   font-weight: 100;
   margin-left: 10px;
   font-style: italic;
   color: rgba(58, 58, 58, 0.655);
 }
-.wrapper .content-container tr .parameter-data {
+.wrapper .content-container table tr .parameter-data {
   width: 10%;
   font-weight: 600;
   vertical-align: top;
 }
-.wrapper .content-container tr .parameter-data .parameter-content {
+.wrapper .content-container table tr .parameter-data .parameter-content {
   display: grid;
   justify-content: center;
 }
-.wrapper .content-container tr .parameter-data .parameter-content h1 {
+.wrapper .content-container table tr .parameter-data .parameter-content h1 {
   color: #00528a;
   font-size: 13px;
   padding-bottom: 10px;
 }
-.wrapper .content-container tr .parameter-data .parameter-content p {
+.wrapper .content-container table tr .parameter-data .parameter-content p {
   font-size: 12px;
   font-weight: 100;
   color: rgba(128, 128, 128, 0.711);
 }
-.wrapper .content-container tr .desc-data {
+.wrapper .content-container table tr .desc-data {
   width: 50%;
   font-weight: 100;
 }
-.wrapper .content-container tr .desc-data .row1,
-.wrapper .content-container tr .desc-data .row2,
-.wrapper .content-container tr .desc-data .row3,
-.wrapper .content-container tr .desc-data .row4 {
+.wrapper .content-container table tr .desc-data .row1,
+.wrapper .content-container table tr .desc-data .row2,
+.wrapper .content-container table tr .desc-data .row3,
+.wrapper .content-container table tr .desc-data .row4 {
   padding: 10px 10px 10px 0px;
   border-bottom: 1px solid rgba(29, 176, 169, 0.137254902);
 }
-.wrapper .content-container tr .desc-data .row1 .blueish,
-.wrapper .content-container tr .desc-data .row2 .blueish,
-.wrapper .content-container tr .desc-data .row3 .blueish,
-.wrapper .content-container tr .desc-data .row4 .blueish {
+.wrapper .content-container table tr .desc-data .row1 .blueish,
+.wrapper .content-container table tr .desc-data .row2 .blueish,
+.wrapper .content-container table tr .desc-data .row3 .blueish,
+.wrapper .content-container table tr .desc-data .row4 .blueish {
   color: #00528a;
 }
-.wrapper .content-container tr .desc-data .row1 .blackish,
-.wrapper .content-container tr .desc-data .row2 .blackish,
-.wrapper .content-container tr .desc-data .row3 .blackish,
-.wrapper .content-container tr .desc-data .row4 .blackish {
+.wrapper .content-container table tr .desc-data .row1 .blackish,
+.wrapper .content-container table tr .desc-data .row2 .blackish,
+.wrapper .content-container table tr .desc-data .row3 .blackish,
+.wrapper .content-container table tr .desc-data .row4 .blackish {
   color: black;
 }
-.wrapper .content-container tr .desc-data .row1 .stealish,
-.wrapper .content-container tr .desc-data .row2 .stealish,
-.wrapper .content-container tr .desc-data .row3 .stealish,
-.wrapper .content-container tr .desc-data .row4 .stealish {
+.wrapper .content-container table tr .desc-data .row1 .stealish,
+.wrapper .content-container table tr .desc-data .row2 .stealish,
+.wrapper .content-container table tr .desc-data .row3 .stealish,
+.wrapper .content-container table tr .desc-data .row4 .stealish {
   color: #1db0a9;
 }
-.wrapper .content-container tr .desc-data .row1 h1,
-.wrapper .content-container tr .desc-data .row2 h1,
-.wrapper .content-container tr .desc-data .row3 h1,
-.wrapper .content-container tr .desc-data .row4 h1 {
+.wrapper .content-container table tr .desc-data .row1 h1,
+.wrapper .content-container table tr .desc-data .row2 h1,
+.wrapper .content-container table tr .desc-data .row3 h1,
+.wrapper .content-container table tr .desc-data .row4 h1 {
   padding-bottom: 10px;
 }
-.wrapper .content-container tr .desc-data .row1 p,
-.wrapper .content-container tr .desc-data .row2 p,
-.wrapper .content-container tr .desc-data .row3 p,
-.wrapper .content-container tr .desc-data .row4 p {
+.wrapper .content-container table tr .desc-data .row1 p,
+.wrapper .content-container table tr .desc-data .row2 p,
+.wrapper .content-container table tr .desc-data .row3 p,
+.wrapper .content-container table tr .desc-data .row4 p {
   color: #00528a;
 }
-.wrapper .content-container tr .desc-data .row1 {
+.wrapper .content-container table tr .desc-data .row1 {
   padding-top: 0;
 }
-.wrapper .content-container tr .desc-data .row1 p,
-.wrapper .content-container tr .desc-data .row1 h1 {
+.wrapper .content-container table tr .desc-data .row1 p,
+.wrapper .content-container table tr .desc-data .row1 h1 {
   display: inline-block;
 }
-.wrapper .content-container tr .desc-data .row1 ul {
+.wrapper .content-container table tr .desc-data .row1 ul {
   margin-left: 30px;
   width: 80%;
 }
-.wrapper .content-container tr .desc-data .row4 {
+.wrapper .content-container table tr .desc-data .row4 {
   border-bottom: none;
 }
-.wrapper .content-container tr .desc-data .row4 a {
+.wrapper .content-container table tr .desc-data .row4 a {
   color: #1db0a9;
   text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */
