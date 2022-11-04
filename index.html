@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <title>Store Explorer</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="side-menu">
+      <ul>
+        <li class="first">STORE Oracle</li>
+        <li>Lorem ipsum</li>
+        <li>Dolor sit amit</li>
+        <li>Consttcr</li>
+      </ul>
+    </div>
+    <div class="content-container">
+      <span class="heading">
+        <h1>STORE Oracle </h1>
+        <p>– the trust-minimized APIs powering STORE</p>
+      </span>
+      <div class="sub-heading">Use these APIs to understand the STORE protocol, to build with its computing resources,
+        and to check API status.</div>
+      <table>
+        <thead>
+          <tr>
+            <th>API ID</th>
+            <th>Parameter</th>
+            <th>Description</th>
+            <th>Data</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <!-- row1 -->
+          <tr>
+            <td class="data">
+              <p>n</p>
+            </td>
+
+            <td class="parameter-data">
+              <div class="parameter-content">
+                <h1>content_category</h1>
+                <p>string</p>
+              </div>
+            </td>
+            <td class="desc-data">
+
+              <div class="row1">
+                <p>The category of the content associated with the event.</p>
+              </div>
+              <div class="row2">
+                <h1>Example:</h1>
+                <p>'grocery'</p>
+              </div>
+              <div class="row3">
+                <h1>API Formula:</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="row4">
+                <h1>API Endpoint:</h1>
+                <a href="http://oracle.storecloud.org/api/endpoint">http://oracle.storecloud.org/api/endpoint</a>
+              </div>
+
+
+            </td>
+            <td class="data">
+              <p>n</p>
+            </td>
+          </tr>
+
+
+          <!-- row2 -->
+          <tr>
+            <td class="data">
+              <p>n</p>
+            </td>
+
+            <td class="parameter-data">
+              <div class="parameter-content">
+                <h1>content_category</h1>
+                <p>string</p>
+              </div>
+            </td>
+            <td class="desc-data">
+
+              <div class="row1">
+                <p class="blackish">The content IDs associated with the event, such as product SKUs for items in an
+                <p class="blueish">AddToCart</p> event. If <p class="blueish"> content_type </p> is a product, then your
+                content IDs must be an
+                array
+                with a single string value. Otherwise, this array can contain any number of string values.</p>
+              </div>
+              <div class="row2">
+                <h1>Example:</h1>
+                <p>['ABC123'. 'XYZ789']</p>
+              </div>
+              <div class="row3">
+                <h1>API Formula:</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="row4">
+                <h1>API Endpoint:</h1>
+                <a href="http://oracle.storecloud.org/api/endpoint">http://oracle.storecloud.org/api/endpoint</a>
+              </div>
+
+
+            </td>
+            <td class="data">
+              <p>n</p>
+            </td>
+          </tr>
+
+          <!-- row3 -->
+          <tr>
+            <td class="data">
+              <p>n</p>
+            </td>
+
+            <td class="parameter-data">
+              <div class="parameter-content">
+                <h1>content_category</h1>
+                <p>string</p>
+              </div>
+            </td>
+            <td class="desc-data">
+
+              <div class="row1">
+                The name of the page or product associated with the event.
+              </div>
+              <div class="row2">
+                <h1>Example:</h1>
+                <p>'lettuce'</p>
+              </div>
+              <div class="row3">
+                <h1>API Formula:</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="row4">
+                <h1>API Endpoint:</h1>
+                <a href="http://oracle.storecloud.org/api/endpoint">http://oracle.storecloud.org/api/endpoint</a>
+              </div>
+
+
+            </td>
+            <td class="data">
+              <p>n</p>
+            </td>
+          </tr>
+
+          <!-- row4 -->
+          <tr>
+            <td class="data">
+              <p>n</p>
+            </td>
+
+            <td class="parameter-data">
+              <div class="parameter-content">
+                <h1>content_category</h1>
+                <p>string</p>
+              </div>
+            </td>
+            <td class="desc-data">
+
+              <div class="row1">
+                <p>Should be set to
+                <p>product</p> or <p>product_group</p>:</p>
+
+                <ul>
+                  <li>Use <p class="blueish"> product </p> if the keys you send represent products. Sent keys could be
+                    <p class="blueish"> content_ids</p> or <p class="blueish">contents</p>.
+                  </li>
+                  <li>
+                    Use <p class="blueish"> product_group </p> if the keys you send in <p class="blueish">content_ids
+                    </p>. represent product
+                    groups. <p class="stealish"> Product groups </p> are used to distinguish products that are identical
+                    but
+                    have variations such as color, material, size or pattern.
+                  </li>
+                </ul>
+              </div>
+            </td>
+            <td class="data">
+              <p>n</p>
+            </td>
+          </tr>
+
+
+          <!-- row5 -->
+          <tr>
+            <td class="data">
+              <p>n</p>
+            </td>
+
+            <td class="parameter-data">
+              <div class="parameter-content">
+                <h1>content_category</h1>
+                <p>array&lt;object&gt;</p>
+              </div>
+            </td>
+            <td class="desc-data">
+
+              <div class="row1">
+                A list of JSON objects that contain the product IDs associated with the event plus
+                information about the products. <br>
+                <h1>Available fields:</h1>
+                <p class="blueish">id, quantity, item_price, delivery_category.</p>
+              </div>
+              <div class="row2">
+                <h1>Example:</h1>
+                <p>[’id’:’ABC123’,’quantity’:2,’item_price’:5.99}, <br>
+                  {’id’:’XYZ789’,’quantity’:2,’item_price’:9.99},
+                  <br>
+                  ‘delivery_category’:’in_store’}]
+                </p>
+              </div>
+              <div class="row3">
+                <h1>API Formula:</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="row4">
+                <h1>API Endpoint:</h1>
+                <a href="http://oracle.storecloud.org/api/endpoint">http://oracle.storecloud.org/api/endpoint</a>
+              </div>
+
+
+            </td>
+            <td class="data">
+              <p>n</p>
+            </td>
+          </tr>
+
+
+          <!-- row6 -->
+          <tr>
+            <td class="data">
+              <p>n</p>
+            </td>
+
+            <td class="parameter-data">
+              <div class="parameter-content">
+                <h1>content_category</h1>
+                <p>string</p>
+              </div>
+            </td>
+            <td class="desc-data">
+
+              <div class="row1">
+                Required for purchase events. <br>
+                The currency for the value specified, if applicable. Currency must be a valid <p class="stealish"> ISO
+                  4217</p>
+                three-digit currency code.
+              </div>
+              <div class="row2">
+                <h1>Example:</h1>
+                <p>'USD'</p>
+              </div>
+              <div class="row3">
+                <h1>API Formula:</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="row4">
+                <h1>API Endpoint:</h1>
+                <a href="http://oracle.storecloud.org/api/endpoint">http://oracle.storecloud.org/api/endpoint</a>
+              </div>
+
+
+            </td>
+            <td class="data">
+              <p>n</p>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+
+    </div>
+    <div class="drop-down-menu"></div>
+  </div>
+</body>
+
+</html>

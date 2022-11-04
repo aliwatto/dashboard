@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+body {
+  background-color: #f3f7f7;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.wrapper .side-menu ul {
+  list-style: none;
+  font-weight: 600;
+}
+.wrapper .side-menu ul li {
+  margin-bottom: 10px;
+}
+.wrapper .side-menu ul .first {
+  color: #1db0a9;
+}
+.wrapper .content-container {
+  width: 900px;
+}
+.wrapper .content-container .heading {
+  display: flex;
+  margin-bottom: 10px;
+}
+.wrapper .content-container .heading h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.wrapper .content-container .heading p {
+  font-size: 28px;
+  font-weight: 100;
+  margin-left: 5px;
+}
+.wrapper .content-container .sub-heading {
+  margin-bottom: 20px;
+}
+.wrapper .content-container table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+}
+.wrapper .content-container table thead tr th {
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+.wrapper .content-container table tbody tr .data,
+.wrapper .content-container table .parameter-data,
+.wrapper .content-container table .desc-data {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+.wrapper .content-container table tbody tr .data {
+  width: 5%;
+  font-weight: 100;
+  vertical-align: top;
+}
+.wrapper .content-container table tbody tr .data p {
+  font-size: 12px;
+  font-weight: 100;
+  margin-left: 10px;
+  font-style: italic;
+  color: rgba(58, 58, 58, 0.655);
+}
+.wrapper .content-container table tbody tr .parameter-data {
+  width: 10%;
+  font-weight: 600;
+  vertical-align: top;
+}
+.wrapper .content-container table tbody tr .parameter-data .parameter-content {
+  display: grid;
+  justify-content: center;
+}
+.wrapper .content-container table tbody tr .parameter-data .parameter-content h1 {
+  color: #00528a;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.wrapper .content-container table tbody tr .parameter-data .parameter-content p {
+  font-size: 12px;
+  font-weight: 100;
+  color: rgba(128, 128, 128, 0.711);
+}
+.wrapper .content-container table tbody tr .desc-data {
+  width: 50%;
+  font-weight: 100;
+}
+.wrapper .content-container table tbody tr .desc-data .row1,
+.wrapper .content-container table tbody tr .desc-data .row2,
+.wrapper .content-container table tbody tr .desc-data .row3,
+.wrapper .content-container table tbody tr .desc-data .row4 {
+  padding: 10px 10px 10px 0px;
+  border-bottom: 1px solid rgba(29, 176, 169, 0.137254902);
+}
+.wrapper .content-container table tbody tr .desc-data .row1 .blueish,
+.wrapper .content-container table tbody tr .desc-data .row2 .blueish,
+.wrapper .content-container table tbody tr .desc-data .row3 .blueish,
+.wrapper .content-container table tbody tr .desc-data .row4 .blueish {
+  color: #00528a;
+}
+.wrapper .content-container table tbody tr .desc-data .row1 .blackish,
+.wrapper .content-container table tbody tr .desc-data .row2 .blackish,
+.wrapper .content-container table tbody tr .desc-data .row3 .blackish,
+.wrapper .content-container table tbody tr .desc-data .row4 .blackish {
+  color: black;
+}
+.wrapper .content-container table tbody tr .desc-data .row1 .stealish,
+.wrapper .content-container table tbody tr .desc-data .row2 .stealish,
+.wrapper .content-container table tbody tr .desc-data .row3 .stealish,
+.wrapper .content-container table tbody tr .desc-data .row4 .stealish {
+  color: #1db0a9;
+}
+.wrapper .content-container table tbody tr .desc-data .row1 h1,
+.wrapper .content-container table tbody tr .desc-data .row2 h1,
+.wrapper .content-container table tbody tr .desc-data .row3 h1,
+.wrapper .content-container table tbody tr .desc-data .row4 h1 {
+  padding-bottom: 10px;
+}
+.wrapper .content-container table tbody tr .desc-data .row1 p,
+.wrapper .content-container table tbody tr .desc-data .row2 p,
+.wrapper .content-container table tbody tr .desc-data .row3 p,
+.wrapper .content-container table tbody tr .desc-data .row4 p {
+  color: #00528a;
+}
+.wrapper .content-container table tbody tr .desc-data .row1 {
+  padding-top: 0;
+}
+.wrapper .content-container table tbody tr .desc-data .row1 p,
+.wrapper .content-container table tbody tr .desc-data .row1 h1 {
+  display: inline-block;
+}
+.wrapper .content-container table tbody tr .desc-data .row1 ul {
+  margin-left: 30px;
+  width: 80%;
+}
+.wrapper .content-container table tbody tr .desc-data .row4 {
+  border-bottom: none;
+}
+.wrapper .content-container table tbody tr .desc-data .row4 a {
+  color: #1db0a9;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
